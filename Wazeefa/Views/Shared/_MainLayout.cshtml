@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial scale = 1" />
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/Style.css" rel="stylesheet" />
@@ -28,19 +28,19 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-envelope"></i>
                             Contact Us
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-info-sign"></i>
                             About
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-folder-open"></i>
                             Categories
                         </a>
                     </li>
@@ -72,8 +72,54 @@
 
         </div>
     </nav>
-        @RenderBody()
+    @RenderBody()
     <!--footer-->
+    <footer class="navbar navbar-fixed-bottom wazeefa-footer">
+        <div class="conntainer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-question-sign"></i>
+                        Who Are We
+                    </h3>
+                    <p>
+                        a technology firm founded in 2009 and one of very few companies in the
+                        MENA region specialized in developing
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-globe"></i>
+                        Resources
+                    </h3>
+                    <ul>
+                        <li><a href="#">Egypt Jobs</a></li>
+                        <li><a href="#">Gulf Jobs</a></li>
+                        <li><a href="#">Europe Jobs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        Contact with us
+                    </h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Info@wazeefa.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            <p>
+                2017 Wazeefa. All Rights Reserved
+            </p>
+        </div>
+    </footer>
     <script src="~/Scripts/jquery.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>

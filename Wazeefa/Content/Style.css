@@ -1,4 +1,7 @@
-﻿.navbar-default{
+﻿body{
+    font-family:'Times New Roman';
+}
+.navbar-default{
     background-color: #0094ff;
     border-color: #e7e7e7;
 }
@@ -24,3 +27,28 @@
     padding-top: 10px;
 }
 
+.wazeefa-footer{
+    background-color: cornflowerblue;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.wazeefa-footer a,p{
+    color:azure;
+}
+.wazeefa-footer .col-md-4>h3{
+    text-align:center;
+}
+.wazeefa-footer .col-md-4 p{
+    text-align:left;
+}
+
+.wazeefa-footer .col-md-4 ul> li{
+    text-align: justify;
+}
+ .sub-footer{
+    background-color: #0094ff;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
